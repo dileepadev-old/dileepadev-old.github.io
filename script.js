@@ -56,14 +56,7 @@ document.querySelectorAll('section:not(.hero)').forEach(section => {
     observer.observe(section);
 });
 
-// Mobile menu toggle (if needed in the future)
-// This is a placeholder for potential mobile menu functionality
-const initMobileMenu = () => {
-    // Future implementation for mobile hamburger menu
-};
-
 // Initialize on DOM load
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Personal website loaded successfully!');
-    initMobileMenu();
 });
